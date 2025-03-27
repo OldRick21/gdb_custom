@@ -112,18 +112,18 @@ Matrix (3x5):
 Если не загружаются кастомные команды:
 
 ```bash
-    echo "source ~/.config/gdb/gdb-custom-commands.py" >> ~/.gdbinit
+echo "source ~/.config/gdb/gdb-custom-commands.py" >> ~/.gdbinit
 ```
 
 Для проверки путей:
 
 ```bash
-    gdb -nx -ex 'show auto-load' -ex 'quit'
+gdb -nx -ex 'show auto-load' -ex 'quit'
 ```
 Если возникает ошибка формата:
 
 ```bash
-    rm ~/.gdbinit && cp .gdbinit ~/
+rm ~/.gdbinit && cp .gdbinit ~/
 ```
         
 ## Данная конфигурация оптимизирована для:
